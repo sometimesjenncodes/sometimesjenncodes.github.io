@@ -48,6 +48,6 @@ ul.posts li {
     list-style: none;
 }
 
-dt {display: list-item;
+dt.project {display: list-item;
     list-style-type:cjk-ideographic;
 }
