@@ -34,7 +34,7 @@ footer {
     font-size: .8em;
 }
 
-dt {
+dd {
     display: list-item;
     list-style-type: disc;
     }
@@ -46,4 +46,8 @@ ul.posts {
 
 ul.posts li {
     list-style: none;
+}
+
+dt {
+    list-style-type:cjk-ideographic;
 }
