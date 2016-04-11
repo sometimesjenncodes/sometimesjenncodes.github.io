@@ -34,7 +34,7 @@ footer {
     font-size: .8em;
 }
 
-dd {
+dt {
     display: list-item;
     list-style-type: disc;
     }
