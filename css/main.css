@@ -34,10 +34,6 @@ footer {
     font-size: .8em;
 }
 
-dd {
-    display: list-item;
-    list-style-type: disc;
-    }
 
 ul.posts { 
     margin: 20px auto 40px; 
@@ -48,6 +44,12 @@ ul.posts li {
     list-style: none;
 }
 
-dt.project {display: list-item;
+dt.project {
+    display: list-item;
     list-style-type:cjk-ideographic;
 }
+
+dd {
+    display: list-item;
+    list-style-type: disc;
+    }
