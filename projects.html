@@ -18,29 +18,20 @@
         		<h1>project list</h1>
         		<p> things that i have done (but mostly things that i want to do and the things i need to learn how to do to do them)</p>
 				<dl>
-				  <dt class="project" value="1">what lirr line should i take</dt>
+				
+				  <dt class="project" value="1"><a href="/map">non-voting electorate map</a></dt>
 				  <dd> 
-				  because some people can't read maps or schedules and because MTA app/website readability sucks <br>
-				  also because a) tests how well i can search strings and b) return multiple results, along with timetables <br>
-				  can also completely do in python
+				  election maps are typically presented as red and blue, but a significant portion of the american electorate does not vote.<br>
+				  goal: create a map that presents the ratios of democrats, republicans, and non-voting electorate in an easily digestable manner <br>
 				  <ol> 
-				  	<li> ☑ download LIRR data</li>
-				  	<li> put into strings / arrays / what would be the neatest way to keep track of this </li>
-				  		<ul>
-				  			<li>python csv import</li>
-				  			<li> in which i discover i haven't installed python or anything on my desktop because i've just been doing everything at work </li>
-				  		</ul>
-				  	<li> write function that searches arrays for station names and returns (p ez) </li>
-				  	<li> write function that returns # of stations in between because people like knowing that kind of thing </li>
-				  	<li> schedule data
-				  		<ul> 
-				  		<li> static schedule data - get time for machine or ask for departure time? or arrival time</li>
-				  		<li> once that is done, try to integrate real-time arrival data </li>
-				  		</ul>
-				  	</li>
-				  	<li> return all lines that one can take from that station within the selected hour? </li>
+				  	<li> ☑ load mapbox map in </li>
+				  	<li> figure out how to store election data </li>
+					<li> create tabular and graphical election data summary / ratios for info box </li>
+				  	<li> create scalable info box for web and mobile </li>
+				  	<li> center zoom and selection on given zip code </li>
 				  	</ol>
 				  	</dd>
+					
 				  <dt class="project" value="2">theoretical fastest mta ride</dt>
 				  <dd> gives you the fastest route in between two stations (including transfers from express to local, e.g. 4/5 -> 6 ) <br>
 				  have to learn how to draw things on a map, integrate with mapbox, and linear optimization. also maximizing transfers when needed.
