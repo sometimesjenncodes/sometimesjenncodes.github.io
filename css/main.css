@@ -46,7 +46,7 @@ ul.posts li {
 
 dt.project {
     display: list-item;
-    list-style-type:cjk-ideographic;
+    list-style-type:trad-chinese-formal;
 }
 
 dd {
